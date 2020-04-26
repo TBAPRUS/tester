@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+button {
+  border: none;
+  cursor: pointer;
+}
+
+input {
+  font-size: 14px;
+  height: 30px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.app {
+  max-width: 1024px;
+  margin: 20px auto;
+  padding-bottom: 40px;
+  background-color: rgb(37, 37, 37);
+}
+
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 2px solid white;
+  height: 40px;
+}
+
+.link {
+  color: white;
+  transition: 0.5s;
+}
+
+.link:hover {
+  color: rgb(37, 37, 37);
+  padding: 5px;
+  background-color: white;
+}

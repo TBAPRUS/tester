@@ -1,0 +1,15 @@
+#menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: #D202CA;
+  height: 40px;
+}
+
+#menu a {
+  color: white;
+}
+
+.select {
+  background-color: green;
+}

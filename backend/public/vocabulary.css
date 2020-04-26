@@ -1,0 +1,180 @@
+input {
+  font-size: 14px;
+  height: 30px;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+#root {
+  height: 100%;
+}
+
+#vocabulary {
+  display: flex;
+  height: 100%;
+}
+
+#search {
+  width: 260px;
+  padding: 20px;
+  background: #FFBDFC;
+}
+
+#wordsearch {
+  width: 100%;
+}
+
+form {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+#add {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#add input {
+  height: 30px;
+  width: 160px;
+}
+
+#add input:first-child {
+  margin-bottom: 5px;
+}
+
+#add input {
+  margin-bottom: 5px;
+}
+
+.false {
+  cursor: pointer;
+}
+
+#words {
+  display: flex;
+  padding: 20px 20px 0 20px;
+  flex-direction: column;
+  width: 760px;
+  height: 100%;
+}
+
+#allselect {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 10px;
+}
+
+#allselect input {
+  margin-left: 20px;
+  width: 14px;
+}
+
+#allselect button {
+  font-size: 16px;
+  margin-right: 20px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  background-color: #F0F0F0;
+}
+
+.word {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 20px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+.word input {
+  margin-left: 20px;
+  width: 14px;
+  height: 14px;
+}
+
+.word p {
+  min-width: 100px;
+}
+
+.delete {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.up {
+  border: none;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  padding-top: 2px;
+  outline: none;
+}
+
+.up.passive {
+  background-color: white;
+}
+
+.up.active {
+  background-color: #F0F0F0;
+}
+
+.down {
+  border: none;
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
+  padding-top: 2px;
+  outline: none;
+}
+
+.down.passive {
+  background-color: white;
+}
+
+.down.active {
+  background-color: #F0F0F0;
+}
+
+/* animation */
+
+.aminwords-enter {
+  opacity: 0;
+  transform: scale(0);
+}
+.aminwords-enter.aminwords-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: 0.5s;
+}
+
+.aminwords-leave {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.aminwords-leave.aminwords-leave-active {
+  opacity: 0;
+  transform: scale(0);
+  transition: 0.5s;
+}
+
+.aminwords-appear {
+  opacity: 0;
+  transform: scale(0);
+}
+.aminwords-appear.aminwords-appear-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: 0.5s;
+}

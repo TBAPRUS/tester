@@ -1,0 +1,44 @@
+.formIn {
+  margin: 22px 20px 0 20px;
+  background-color: white;
+  max-width: 310px;
+  padding: 10px;
+}
+
+.formIn input {
+  width: 100%;
+  max-width: 310px;
+}
+
+.formIn h1 {
+  margin-bottom: 5px;
+  max-width: 310px;
+}
+
+.formIn a {
+  color: black
+}
+
+.formIn form {
+  margin-top: 5px;
+}
+
+.formIn .info {
+  position: absolute;
+  margin-left: 330px;
+  margin-top: -23px;
+  width: 16px;
+  height: 16px;
+  background-color: white;
+  z-index: 1;
+}
+.formIn .problems {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  margin-left: 356px;
+  margin-top: -23px;
+  background-color: white;
+  padding: 10px;
+  animation: show .3s 1;
+}

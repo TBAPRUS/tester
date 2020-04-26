@@ -1,0 +1,20 @@
+doctype html
+html
+  head
+    title= title
+    meta(name="viewport", content="width=device-width,initial-scale=1")
+    link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Roboto&display=swap')
+    link(rel='stylesheet', href='/stylesheets/animation.css')
+    link(rel='stylesheet', href='/stylesheets/main.css')
+    link(rel='stylesheet', href='/stylesheets/login.css')
+    link(rel='stylesheet', href='/stylesheets/error.css')
+    link(rel='stylesheet', href='/stylesheets/load.css')
+    link(rel='stylesheet', href='/stylesheets/tests.css')
+    link(rel='stylesheet', href='/stylesheets/test.css')
+    link(rel='stylesheet', href='/stylesheets/create.css')
+    block style
+  body
+    block content
+    #root
+    script(src="/javascripts/main.js")
+    block script

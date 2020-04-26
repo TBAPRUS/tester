@@ -1,0 +1,49 @@
+.tests {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tests .test {
+  width: 40%;
+  margin: 20px;
+  text-align: center;
+  background-color: white;
+  transition: 0.5s;
+}
+
+.tests img {
+  width: 100%;
+}
+
+.tests .test a {
+  color: rgb(37, 37, 37);
+  margin: 20px 20px 0 20px;
+  color: rgb(37, 37, 37);
+  height: 100%;
+}
+
+.tests .test:hover {
+  transform: scale(1.1);
+}
+
+.content button {
+  border: 2px solid white;
+  padding: 5px;
+  display: block;
+  color: white;
+  font-size: 20px;
+  margin: auto;
+  background-color: rgb(37, 37, 37);
+  transition: 0.5s;
+}
+
+.content button:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width:399px) {
+  .tests .test {
+    width: 90%;
+  }
+}

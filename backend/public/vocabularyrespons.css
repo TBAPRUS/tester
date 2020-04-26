@@ -1,0 +1,24 @@
+@media (max-width:588px) {
+  #vocabulary {
+    flex-direction: column;
+  }
+  #search {
+    width: auto;
+  }
+  #words {
+    width: auto;
+  }
+  .word {
+    height: auto;
+    min-height: 30px;
+  }
+  .word p {
+    margin: 0;
+  }
+  #wordsearch {
+    width: auto;
+  }
+  form input {
+    margin-right: 5px;
+  }
+}

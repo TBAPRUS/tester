@@ -1,0 +1,122 @@
+#back {
+  cursor: pointer;
+  padding: 10px;
+}
+
+#games {
+  display: flex;
+  justify-content: space-between;
+  flex-grow: 1;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.game {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44%;
+  height: 300px;
+  margin: 3%;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  transition: 0.3s linear;
+  animation: show 1s 1;
+}
+
+.game p {
+  width: auto;
+}
+
+.three {
+  min-height: 187px;
+  animation: show 1s 1;
+}
+
+.input {
+  min-height: 238px;
+  animation: show 1s 1;
+}
+
+.input .answer {
+  animation: show 1s 1;
+  display: flex;
+  flex-direction: column;
+}
+
+#inputword {
+  border: none;
+  outline: none;
+  height: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+}
+
+#trueanswer {
+  margin-bottom: 30px;
+}
+
+#check {
+  outline: none;
+  border: none;
+  color: rgb(170, 170, 170);
+  height: 30px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  transition: .3s linear;
+}
+
+#check:hover {
+  color: rgb(0, 0, 0);
+}
+
+.game:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  margin: 50px;
+  text-align: center;
+}
+#learn {
+  height: auto;
+}
+.three p {
+  cursor: pointer;
+}
+.answer {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: auto;
+  width: 300px;
+}
+.three .answer p {
+  padding: 10px;
+  box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+  transition: .3s;
+}
+.answer .true {
+  background-color:rgba(0, 255, 42, 0.25);
+}
+.answer .false {
+  background-color:rgba(255, 0, 0, 0.25);
+}
+.next {
+  margin-top: 20px;
+  text-align: right;
+  cursor: pointer;
+  padding: 10px;
+  animation: show .3s 1;
+}
+
+/* animation */
+
+@keyframes show{
+  0%{
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}

@@ -1,0 +1,73 @@
+.test .question {
+  margin-top: 20px;
+  background-color: white;
+  width: 80%;
+  padding: 20px;
+  margin: 20px auto;
+}
+
+.test .question img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.test .question h1 {
+  color: rgb(37, 37, 37);
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.test .question h2 {
+  color: rgb(37, 37, 37);
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.test .question button {
+  display: block;
+  margin: auto;
+  color: rgb(37, 37, 37);
+  background-color: white;
+  font-size: 18px;
+  padding: 2px;
+  border: 1px solid rgb(37, 37, 37);
+}
+
+.test .question .answers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.test .question .answers .answer {
+  max-width: 40%;
+  padding: 5px;
+  border: none;
+}
+
+.test .question .answers .false {
+  background-color: rgba(179, 69, 69, 0.51);
+}
+
+.test .question .answers .true {
+  background-color: rgba(41, 162, 41, 0.51);
+}
+
+.test .question .answers .select {
+  background-color: rgba(41, 162, 41, 0.51);
+}
+
+.test .questions .counttrue {
+  text-align: center;
+  color: white;
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+.test a {
+  display: block;
+  text-align: center;
+  color: white;
+  font-size: 18px;
+}

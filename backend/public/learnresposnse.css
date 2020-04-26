@@ -1,0 +1,19 @@
+@media (max-width:305px) {
+  .answer {
+    height: auto;
+    width: auto;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .answer p {
+    margin-bottom: 5px;
+  }
+}
+@media (max-width:360px) {
+  #games {
+    flex-direction: column;
+  }
+  .game {
+    width: auto;
+  }
+}
